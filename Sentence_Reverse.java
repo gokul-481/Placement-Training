@@ -5,7 +5,7 @@ class Sentence_Reverse{
         String str="";
         for(int i=n;i>=0;i--)
         {
-            if(Character.isLetter(s.charAt(i))){
+            if(s.charAt(i)!=' '){
                 str=str+s.charAt(i);
                 if(i==0){
                 StringBuilder sb=new StringBuilder(str);
